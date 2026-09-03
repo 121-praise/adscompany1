@@ -18,7 +18,7 @@ export default function Projects({ navigate }: ProjectsProps) {
     <div>
       <PageHeader
         title="Our Projects"
-        subtitle="A selection of completed work showcasing our expertise across surveying, engineering, and real estate."
+        subtitle=""
         breadcrumb="Projects"
         navigate={navigate}
       />
