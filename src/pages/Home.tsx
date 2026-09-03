@@ -54,7 +54,7 @@ export default function Home({ navigate }: HomeProps) {
             <img
               src={slide.image}
               alt={slide.title}
-              className="h-70 w-50 object-cover"
+              className="h-70 w-75 object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-r from-ink-950 via-ink-950/80 to-ink-950/45" />
           </div>
