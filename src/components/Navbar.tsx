@@ -44,15 +44,15 @@ export default function Navbar({ current, navigate }: NavbarProps) {
       }`}
     >
       {/* Top bar */}
-      <div className={`hidden lg:block transition-all duration-300 ${scrolled ? 'h-0 overflow-hidden opacity-0' : 'opacity-100'} ${isTransparent ? '' : 'bg-brand-700'}`}>
-        <div className={`container-page flex h-9 items-center justify-between text-xs ${isTransparent ? 'text-white/80' : 'text-white'}`}>
+      <div className={`hidden lg:block transition-all duration-300 ${scrolled ? 'h-0 overflow-hidden opacity-0' : 'opacity-100'} bg-brand-700`}>
+        <div className="container-page flex h-9 items-center justify-between text-xs text-white">
           <div className="flex items-center gap-4">
             <span className="font-medium">{companyInfo.shortAddress}</span>
           </div>
           <div className="flex items-center gap-4">
-            <a href={`mailto:${companyInfo.email}`} className={`hover:text-brand-300 ${isTransparent ? 'text-white/80 hover:text-white' : 'text-white hover:text-brand-200'}`}>{companyInfo.email}</a>
-            <span className={isTransparent ? 'text-white/30' : 'text-white/40'}>|</span>
-            <a href={`tel:${companyInfo.phones[0]}`} className={`font-medium hover:text-brand-300 ${isTransparent ? 'text-white/80 hover:text-white' : 'text-white hover:text-brand-200'}`}>
+            <a href={`mailto:${companyInfo.email}`} className="text-white hover:text-brand-200">{companyInfo.email}</a>
+            <span className="text-white/40">|</span>
+            <a href={`tel:${companyInfo.phones[0]}`} className="font-medium text-white hover:text-brand-200">
               {companyInfo.phones[0]}
             </a>
           </div>
@@ -61,7 +61,7 @@ export default function Navbar({ current, navigate }: NavbarProps) {
 
       <nav className="container-page flex h-16 items-center justify-between lg:h-20">
         <button onClick={() => handleNav('/')} className="flex-shrink-0">
-          {isTransparent ? <Logo variant="light" /> : <Logo />}
+          <Logo />
         </button>
 
         <div className="hidden items-center gap-1 lg:flex">

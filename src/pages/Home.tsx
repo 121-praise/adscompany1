@@ -48,15 +48,15 @@ export default function Home({ navigate }: HomeProps) {
           <div
             key={i}
             className={`absolute inset-0 transition-opacity duration-1000 ${
-              i === activeSlide ? 'opacity-30' : 'opacity-0'
+              i === activeSlide ? 'opacity-100' : 'opacity-0'
             }`}
           >
             <img
               src={slide.image}
               alt={slide.title}
-              className="h-full w-full object-cover"
+              className="h-full w-full object-cover object-center"
             />
-            <div className="absolute inset-0 bg-gradient-to-r from-ink-950 via-ink-950/80 to-ink-950/45" />
+            <div className="absolute inset-0 bg-gradient-to-r from-ink-950/85 via-ink-950/55 to-ink-950/25" />
           </div>
         ))}
 
