@@ -14,11 +14,11 @@ interface HomeProps {
 const heroSlides = [
   {
     title: 'Surveying & Mapping',
-    image: '/images/home/6.jpeg',
+    image: '/images/home/7.jpeg',
   },
   {
     title: 'Civil Engineering',
-    image: '/images/home/7.jpeg',
+    image: '/images/home/6.jpeg',
   },
   {
     title: 'Real Estate',
