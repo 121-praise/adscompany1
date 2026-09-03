@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 430" role="img" aria-labelledby="title desc">
+  <title id="title">ADS Transnational Field Services Ltd</title>
+  <desc id="desc">ADS Transnational Field Services Ltd logo with a blue and lime geometric mark.</desc>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M116 392C89 292 117 172 274 18" stroke="#17496f" stroke-width="42"/>
+    <path d="M300 376C300 209 339 93 411 0" stroke="#17496f" stroke-width="42"/>
+    <path d="M1 126C161 181 291 187 475 167C332 159 197 143 1 126Z" fill="#86e616" stroke="#86e616" stroke-width="10"/>
+    <path d="M117 386C167 298 250 217 385 168C263 219 183 286 117 386Z" fill="#86e616" stroke="#86e616" stroke-width="9"/>
+  </g>
+  <text x="371" y="177" fill="#17496f" font-family="Arial, Helvetica, sans-serif" font-size="88" font-weight="800" letter-spacing="-3">ADS TRANSNATIONAL</text>
+  <text x="373" y="273" fill="#86e616" font-family="Arial, Helvetica, sans-serif" font-size="57" font-weight="800" letter-spacing="2">FIELD SERVICES LTD</text>
+</svg>
