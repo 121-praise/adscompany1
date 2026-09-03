@@ -55,9 +55,9 @@ export default function Projects({ navigate }: ProjectsProps) {
                     alt={project.title}
                     className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-ink-900/60 to-transparent" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-ink-950/70 via-ink-900/20 to-transparent" />
                   <div className="absolute bottom-3 left-3">
-                    <span className="rounded-full bg-brand-700/90 px-3 py-1 text-xs font-semibold text-white backdrop-blur-sm">
+                    <span className="rounded-full bg-brand-700 px-3 py-1 text-xs font-semibold text-white shadow-md">
                       {project.category}
                     </span>
                   </div>

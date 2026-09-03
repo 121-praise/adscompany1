@@ -14,19 +14,19 @@ interface HomeProps {
 const heroSlides = [
   {
     title: 'Surveying & Mapping',
-    image: '/images/home/2.jpeg',
+    image: '/images/home/6.jpeg',
   },
   {
     title: 'Civil Engineering',
-    image: '/images/home/4.jpeg',
+    image: '/images/home/7.jpeg',
   },
   {
     title: 'Real Estate',
-    image: '/images/about-us/1.jpeg',
+    image: '/images/about-us/8.jpeg',
   },
   {
     title: 'Hydrography',
-    image: '/images/about-us/5.jpeg'
+    image: '/images/about-us/10.jpeg',
   },
 ];
 
@@ -56,7 +56,7 @@ export default function Home({ navigate }: HomeProps) {
               alt={slide.title}
               className="h-full w-full object-cover"
             />
-            <div className="absolute inset-0 bg-gradient-to-r from-ink-950 via-ink-900/80 to-ink-900/40" />
+            <div className="absolute inset-0 bg-gradient-to-r from-ink-950 via-ink-950/80 to-ink-950/45" />
           </div>
         ))}
 
@@ -182,14 +182,16 @@ export default function Home({ navigate }: HomeProps) {
                   className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />
                 <span className="absolute inset-0 bg-gradient-to-t from-ink-950/90 via-ink-900/50 to-ink-900/10 transition-colors group-hover:from-brand-950/90 group-hover:via-brand-900/60" />
-                <span className="relative flex h-full flex-col justify-end p-7">
-                  <span className="text-xl font-bold text-white">{service.title}</span>
-                  <span className="mt-2 block text-sm leading-relaxed text-ink-200">
-                    {service.shortDescription}
-                  </span>
-                  <span className="mt-5 inline-flex w-fit items-center gap-2 rounded-lg bg-accent-500 px-4 py-2.5 text-sm font-bold text-ink-900 shadow-lg transition-all group-hover:bg-accent-400 group-hover:shadow-accent-500/30">
-                    Learn more
-                    <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+                <span className="relative flex h-full flex-col justify-end p-5 sm:p-7">
+                  <span className="rounded-xl bg-ink-950/55 p-4 backdrop-blur-[2px]">
+                    <span className="text-xl font-bold text-white">{service.title}</span>
+                    <span className="mt-2 block text-sm leading-relaxed text-white/90">
+                      {service.shortDescription}
+                    </span>
+                    <span className="mt-5 inline-flex w-fit items-center gap-2 rounded-lg bg-accent-500 px-4 py-2.5 text-sm font-bold text-ink-900 shadow-lg transition-all group-hover:bg-accent-400 group-hover:shadow-accent-500/30">
+                      Learn more
+                      <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+                    </span>
                   </span>
                 </span>
               </button>

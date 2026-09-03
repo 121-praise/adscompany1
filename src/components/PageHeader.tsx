@@ -9,8 +9,16 @@ interface PageHeaderProps {
 
 export default function PageHeader({ title, subtitle, breadcrumb, navigate }: PageHeaderProps) {
   return (
-    <section className="border-b border-ink-100 bg-ink-50 pt-28 pb-12 lg:pt-32">
-      <div className="container-page">
+    <section className="relative overflow-hidden border-b border-ink-100 bg-ink-50 pt-28 pb-12 lg:pt-32">
+      <div className="absolute inset-0">
+        <img
+          src="/images/home/2.jpeg"
+          alt=""
+          aria-hidden="true"
+          className="h-full w-full object-cover opacity-[0.07]"
+        />
+      </div>
+      <div className="container-page relative">
         <div className="mb-3 flex items-center gap-2 text-xs font-semibold text-ink-400">
           <button onClick={() => navigate('/')} className="hover:text-brand-700">
             Home

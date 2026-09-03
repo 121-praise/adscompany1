@@ -72,12 +72,33 @@ export default function About({ navigate }: AboutProps) {
                 </p>
               </div>
             </div>
-            <div className="relative">
-              <div className="overflow-hidden rounded-xl shadow-lg">
+            <div className="grid grid-cols-2 gap-3 sm:gap-4">
+              <div className="col-span-2 overflow-hidden rounded-xl shadow-lg">
                 <img
                   src="/images/about-us/1.jpeg"
-                  alt="Engineering team on site"
-                  className="h-[400px] w-full object-cover"
+                  alt="ADS surveyor using field equipment"
+                  className="h-64 w-full object-cover object-center sm:h-72"
+                />
+              </div>
+              <div className="overflow-hidden rounded-xl shadow-lg">
+                <img
+                  src="/images/about-us/8.jpeg"
+                  alt="ADS field team carrying out wetland surveying"
+                  className="h-40 w-full object-cover object-center sm:h-48"
+                />
+              </div>
+              <div className="overflow-hidden rounded-xl shadow-lg">
+                <img
+                  src="/images/about-us/10.jpeg"
+                  alt="ADS survey team working in a wooded site"
+                  className="h-40 w-full object-cover object-center sm:h-48"
+                />
+              </div>
+              <div className="col-span-2 overflow-hidden rounded-xl shadow-lg">
+                <img
+                  src="/images/about-us/5.jpeg"
+                  alt="ADS team working on a land survey"
+                  className="h-48 w-full object-cover object-center sm:h-56"
                 />
               </div>
             </div>

@@ -45,7 +45,7 @@ export const services: Service[] = [
     description:
       'We guide clients through every stage of property acquisition and disposal — from land sourcing and title verification to negotiation and documentation. Our real-estate team ensures every transaction is legally sound, properly documented, and aligned with your investment objectives.',
     icon: Building2,
-    image: 'https://images.pexels.com/photos/10964081/pexels-photo-10964081.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+    image: '/images/about-us/5.jpeg',
     features: [
       'Land sourcing & verification',
       'Property sales & leasing',
@@ -62,7 +62,7 @@ export const services: Service[] = [
     description:
       'From road construction and drainage systems to foundations and site development, our civil engineering team delivers projects that meet Nigerian and international standards. We manage every phase from design through construction supervision, ensuring quality, safety, and timely delivery.',
     icon: HardHat,
-    image: 'https://images.pexels.com/photos/5511065/pexels-photo-5511065.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+    image: '/images/home/7.jpeg',
     features: [
       'Road & pavement construction',
       'Drainage & storm-water systems',
@@ -79,7 +79,7 @@ export const services: Service[] = [
     description:
       'Our hydrographic survey services map the underwater topography of rivers, lagoons, and coastal waters. Using echo sounders and GNSS positioning, we produce bathymetric charts and water-depth data essential for dredging, port development, and environmental monitoring.',
     icon: Waves,
-    image: 'https://images.pexels.com/photos/16059618/pexels-photo-16059618.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+    image: '/images/about-us/8.jpeg',
     features: [
       'Bathymetric surveys',
       'Water-depth measurement',
@@ -96,7 +96,7 @@ export const services: Service[] = [
     description:
       'We build GIS solutions that turn geographic data into actionable intelligence. From spatial database design and data capture to custom map production and analysis, our GIS services support urban planning, environmental management, utilities, and land administration.',
     icon: Map,
-    image: 'https://images.pexels.com/photos/5306430/pexels-photo-5306430.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+    image: '/images/about-us/10.jpeg',
     features: [
       'Spatial data capture & digitization',
       'GIS database design',
@@ -113,7 +113,7 @@ export const services: Service[] = [
     description:
       'Navigating Nigerian land documentation can be complex. We handle the full spectrum of title processing — from survey plans and deed assignments to Certificate of Occupancy and Governor\'s Consent applications — ensuring your land rights are properly documented and legally protected.',
     icon: FileText,
-    image: 'https://images.pexels.com/photos/48148/document-agreement-documents-sign-48148.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+    image: '/images/about-us/1.jpeg',
     features: [
       'Survey plan processing',
       'Certificate of Occupancy (C of O)',
@@ -139,42 +139,42 @@ export const projects: ProjectItem[] = [
     category: 'Hydrography',
     location: 'Lekki, Lagos',
     description: 'Comprehensive underwater survey of 15 km of coastline to support erosion-control planning and dredging operations.',
-    image: 'https://images.pexels.com/photos/15069312/pexels-photo-15069312.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+    image: '/images/about-us/8.jpeg'
   },
   {
     title: 'Ibeju-Lekki Estate Layout & Survey',
     category: 'Surveying & Mapping',
     location: 'Ibeju-Lekki, Lagos',
     description: 'Topographic survey and site layout plan for a 120-acre residential estate, including boundary demarcation and road alignment.',
-    image: 'https://images.pexels.com/photos/9751100/pexels-photo-9751100.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+    image: '/images/home/core-services/9.jpeg'
   },
   {
     title: 'Lakowe Access Road Construction',
     category: 'Civil Engineering',
     location: 'Lakowe, Lagos',
     description: 'Design and construction of a 2.5 km access road with drainage channels connecting to the Golf Course Road corridor.',
-    image: 'https://images.pexels.com/photos/38462882/pexels-photo-38462882.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+    image: '/images/home/7.jpeg'
   },
   {
     title: 'Epe Land Title Regularization',
     category: 'Land Documentation',
     location: 'Epe, Lagos',
     description: 'Processed 40+ Certificates of Occupancy and Governor\'s Consent for a community land regularisation initiative.',
-    image: 'https://images.pexels.com/photos/7567600/pexels-photo-7567600.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+    image: '/images/about-us/1.jpeg'
   },
   {
     title: 'Lagos Lagoon GIS Mapping Project',
     category: 'GIS',
     location: 'Lagos',
     description: 'Created a comprehensive GIS database of land use and environmental features around the Lagos lagoon for urban planning authorities.',
-    image: 'https://images.pexels.com/photos/33998346/pexels-photo-33998346.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+    image: '/images/about-us/10.jpeg'
   },
   {
     title: 'Ibeju-Lekki Property Development Portfolio',
     category: 'Real Estate',
     location: 'Ibeju-Lekki, Lagos',
     description: 'Sourced, verified, and acquired 25 plots of land for a private investor portfolio with full title documentation.',
-    image: 'https://images.pexels.com/photos/30094324/pexels-photo-30094324.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+    image: '/images/home/6.jpeg'
   },
 ];
 
