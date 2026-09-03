@@ -37,7 +37,7 @@ export default function About({ navigate }: AboutProps) {
     <div>
       <PageHeader
         title="About Us"
-        subtitle="A trusted Nigerian field services firm delivering precision, integrity, and excellence in every project."
+        subtitle=""
         breadcrumb="About"
         navigate={navigate}
       />
