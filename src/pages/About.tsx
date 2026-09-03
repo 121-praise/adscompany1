@@ -191,7 +191,7 @@ export default function About({ navigate }: AboutProps) {
             ))}
           </div>
           <p className="mt-8 text-center text-sm text-ink-400">
-            Detailed team profiles will be added as they become available.
+           
           </p>
         </div>
       </section>
